@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input,
+button {
+  outline: 0;
+}
+
+menu#main-menu {
+  width: 100%;
+  background: #480c66;
+  height: 70px;
+  font-style: italic;
+}
+menu#main-menu div.main {
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+menu#main-menu div.main div.menu-left {
+  width: 800px;
+  margin: 0 auto;
+}
+
+menu#main-menu div.main ul {
+  list-style: none;
+  display: -webkit-flex;
+  margin-top: 20px;
+}
+
+menu#main-menu div.main div.menu-left ul li {
+  margin-right: 20px;
+}
+menu#main-menu div.main div.menu-left ul div.lastLi {
+  background: #3a0653;
+  border-radius: 5px;
+  position: relative;
+  top: -12px;
+}
+menu#main-menu div.main div.menu-left ul div.lastLi li {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  padding: 10px;
+  position: relative;
+  left: 15px;
+}
+
+menu#main-menu div.main div.menu-right {
+  width: 250px;
+  justify-content: space-between;
+  position: relative;
+  bottom: 10px;
+}
+
+menu#main-menu div.main div.menu-right ul li {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+menu#main-menu div.main div.menu-right ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}

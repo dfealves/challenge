@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input,
+button {
+  outline: 0;
+}
+section.potions {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #222;
+}
+section {
+  margin: 0 auto;
+}
+div.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  list-style: none;
+}
+.description_potions {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  align-self: center;
+  max-width: 325px;
+}
+
+div.description_potions strong {
+  color: #222;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+div.description_potions span.price {
+  color: #d60f0f;
+  display: flex;
+  justify-content: left;
+  margin-left: 2px;
+}
